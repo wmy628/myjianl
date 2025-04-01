@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 20px;
+                    }
+        .resume-table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+        }
+        .resume-table caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .resume-table td {
+            border: 1px solid #000;
+            padding: 8px 12px;
+            vertical-align: middle;
+        }
+        .resume-table .icon {
+            width: 20px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 5px;
+        }
+        .resume-table .photo-cell {
+            width: 80px;
+            height: 100px;
+            text-align: center;
+        }
+        .photo-placeholder {
+            width: 100%;
+            height: 100%;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+        }
+        .section-title {
+            font-weight: bold;
+            background-color: #f0f0f0;
+        }
+        .title-with-icon {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+  <table class="resume-table">
+        <caption>个人简历</caption>
+        <!-- 第一行 -->
+        <tr>
+            <td><div class="title-with-icon"><span class="icon">👤</span>姓名</div></td>
+            <td>吴梦瑶</td>
+            <td><div class="title-with-icon"><span class="icon">♂</span>性别</div></td>
+            <td>女</td>
+            <td><div class="title-with-icon"><span class="icon">🎂</span>年龄</div></td>
+            <td>18</td>
+        </tr>
+        <!-- 第二行 -->
+        <tr>
+            <td><div class="title-with-icon"><span class="icon">🏠</span>籍贯</div></td>
+            <td>山东聊城</td>
+            <td><div class="title-with-icon"><span class="icon">📱</span>联系电话</div></td>
+            <td>156 0535 2912</td>
+            <td><div class="title-with-icon"><span class="icon">✉️</span>电子邮箱</div></td>
+            <td>1134299216@qq.com</td>
+            <td rowspan="3" class="photo-cell" style="width:80px;height:120px;">
+                <img src="347.jpg" alt="个人证件照" 
+                     style="width:100%;height:100%;object-fit:cover;border:1px solid #ddd;">
+            </td>
+        </tr>
+        <!-- 第三行 -->
+        <tr>
+            <td><div class="title-with-icon"><span class="icon">🎓</span>学历</div></td>
+            <td>本科</td>
+            <td><div class="title-with-icon"><span class="icon">💪</span>健康状况</div></td>
+            <td>良好</td>
+            <td><div class="title-with-icon"><span class="icon">💍</span>婚姻状况</div></td>
+            <td>未婚</td>
+        </tr>
+        <!-- 第四行 -->
+        <tr>
+            <td><div class="title-with-icon"><span class="icon">🎯</span>求职意向</div></td>
+            <td colspan="2">软件开发</td>
+            <td><div class="title-with-icon"><span class="icon">📚</span>专业</div></td>
+            <td colspan="2">软件工程专业</td>
+        </tr>
+        <!-- 其他行 -->
+        <tr>
+            <td class="section-title">毕业院校</td>
+            <td colspan="6">鲁东大学</td>
+        </tr>
+        <tr>
+            <td class="section-title">技能证书</td>
+            <td colspan="6">
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li>英语六级证书</li>
+                    <li>英语四级</li>
+                    <li>计算机二级证书</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="section-title">个人特长与爱好</td>
+            <td colspan="6">
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li>阅读</li>
+                    <li>熟练掌握软件工程相关专业知识</li>
+                    <li>听音乐</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="section-title">项目经历</td>
+            <td colspan="6">
+                <p style="margin: 5px 0;"><strong>项目名称：</strong>课程管理系统研发</p>
+                <p style="margin: 5px 0;"><strong>项目描述：</strong>设计并实现一个支持多角色的在线学习平台，包含课程发布、在线考试、作业提交等功能</p>
+                <p style="margin: 5px 0;"><strong>技术栈：</strong>Git、Maven、Swagger</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="section-title">自我评价</td>
+            <td colspan="6">
+                <p style="margin: 5px 0;">熟练掌握 Java/Python/C++ 等编程语言，工作细致负责，参与开源项目贡献代码，沟通高效，擅长需求分析与技术方案设计。</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>	
